@@ -20,7 +20,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="announc.css">
+    <link rel="stylesheet" href="announc.css" />
   </head>
   <body>
     <!--Header-->
@@ -99,8 +99,17 @@
       </div>
     </div>
     <!--Main Content-->
-    <h1 class="cont">ELAN YERLƏŞDİRMƏK</h1>
-    <ul class="cont">
+    <h1
+      class="cont mt-2 mb-2 py-4"
+      style="
+        font-size: 18px;
+        font-weight: 700;
+        border-bottom: 1px solid #efefef;
+      "
+    >
+      ELAN YERLƏŞDİRMƏK
+    </h1>
+    <ul class="cont info-list">
       <li>
         Üç ay ərzində bir nəqliyyat vasitəsi yalnız bir dəfə pulsuz dərc oluna
         bilər.
@@ -115,7 +124,7 @@
       </li>
     </ul>
     <form action="" class="cont">
-      <div>
+      <div class="form-elements">
         <label for="">Marka</label>
         <!-- <input type="text" style="border: 1px solid gray; border-radius: 4px;"> -->
         <select name="" id="">
@@ -134,7 +143,7 @@
           <option value="">Hibrid</option>
         </select>
       </div>
-      <div>
+      <div class="form-elements">
         <label for="">Model</label>
         <!-- <input type="text" style="border: 1px solid gray; border-radius: 4px;"> -->
         <select name="" id="">
@@ -151,7 +160,7 @@
           <option value="">Tam</option>
         </select>
       </div>
-      <div>
+      <div class="form-elements">
         <label for="">Ban Novu</label>
         <!-- <input type="text" style="border: 1px solid gray; border-radius: 4px;"> -->
         <select name="" id="">
@@ -168,17 +177,17 @@
           <option value="">Variator</option>
         </select>
       </div>
-      <div>
+      <div class="form-elements">
         <label for="">Yürüş</label>
         <!-- <input type="text" style="border: 1px solid gray; border-radius: 4px;"> -->
-        <input
-          type="number"
-          step="1000"
-          min="0"
-          max=""
-          style="width: 90px; border: 1px solid gray; border-radius: 4px"
-        />
         <div style="display: inline">
+          <input
+            type="number"
+            step="1000"
+            min="0"
+            max=""
+            style="width: 90px; border: 1px solid gray; border-radius: 4px"
+          />
           <input type="checkbox" name="distance" />
           <label for="km">km</label>
           <input type="checkbox" name="distance" />
@@ -191,7 +200,7 @@
           <option value="">2020</option>
         </select>
       </div>
-      <div>
+      <div class="form-elements">
         <label for="">Rəng </label>
         <!-- <input type="text" style="border: 1px solid gray; border-radius: 4px;"> -->
         <select name="" id="">
@@ -208,39 +217,46 @@
           <option value="">150</option>
         </select>
       </div>
-      <div>
-        <label for="">Yürüş</label>
+      <div class="form-elements">
+        <label for="">Qiymət</label>
         <!-- <input type="text" style="border: 1px solid gray; border-radius: 4px;"> -->
-        <input
-          type="number"
-          step="1"
-          min="500"
-          max=""
-          style="width: 90px; border: 1px solid gray; border-radius: 4px"
-        />
-        <div style="display: inline">
+        <div>
+          <input
+            type="number"
+            step="1"
+            min="500"
+            max=""
+            style="width: 90px; border: 1px solid gray; border-radius: 4px"
+          />
           <input type="checkbox" name="distance" />
           <label for="km">USD</label>
           <input type="checkbox" name="distance" />
           <label for="mil">AZN</label>
           <input type="checkbox" name="distance" />
           <label for="mil">EURO</label>
-          <label for="">Mühərrikin gücü, a.g </label>
-          <input
-            type="number"
-            step="1"
-            min="1"
-            max=""
-            style="width: 90px; border: 1px solid gray; border-radius: 4px"
-          />
         </div>
+        <label for="">Mühərrikin gücü, a.g </label>
+        <input
+          type="number"
+          step="1"
+          min="1"
+          max=""
+          style="width: 80%;height: 30px; border: 1px solid gray; border-radius: 4px"
+        />
       </div>
-      <input type="checkbox" name="distance" />
-      <label for="mil">Kreditdedir</label>
-      <input type="checkbox" name="distance" />
-      <label for="mil">Barter Mumkundur</label>
-      <label for="">Elave Melumat</label>
-      <textarea name="" id="" cols="30" rows="10"></textarea>
+      <div style="margin: 20px 0px;">
+        <input type="checkbox" name="distance" />
+        <label for="mil">Kreditdedir</label>
+        <input type="checkbox" name="distance" />
+        <label for="mil">Barter Mumkundur</label>
+      </div>
+
+      <div
+        style="display: grid; grid-template-columns: 1fr 4fr; margin: 10px 0px"
+      >
+        <label for="">Elave Melumat</label>
+        <textarea name="" id="" cols="89" rows="4"></textarea>
+      </div>
       <h2>Sekiller</h2>
       <section class="add-img">
         <ul>
@@ -264,13 +280,14 @@
             src="https://turbo.azstatic.com/assets/application/sprites/main-18cd1e9ee113a0b32e2ee0a2ed0036728d0539b1afe7398d2456b656a986ac69.svg#dashboard"
             alt=""
           />
-          <img id="add-icon"
+          <img
+            id="add-icon"
             src="https://turbo.azstatic.com/assets/application/sprites/main-18cd1e9ee113a0b32e2ee0a2ed0036728d0539b1afe7398d2456b656a986ac69.svg#plus"
             alt=""
           />
         </div>
       </section>
-      <ul>
+      <ul class="rules">
         <div>
           <li>Şəkillər Azərbaycan Respublikasının ərazisində çəkilməlidir.</li>
           <li>
@@ -290,28 +307,11 @@
           </li>
         </div>
       </ul>
-      <!--Elaqe-->
-      <h3>Elaqe</h3>
-      <p>Elan dərc olunduqdan sonra əlaqə məlumatları ilə bağlı heç bir dəyişiklik həyata keçirilmir.</p>
-      <div>
-          <label for="">Adiniz</label>
-          <input type="text" name="" id="" class="input">
-      </div>
-      <div>
-        <label for="">Seher</label>
-        <input type="text" name="" id="" class="input">
-    </div>
-    <div>
-        <label for="">E-mail</label>
-        <input type="email" name="" id="" class="input">
-    </div>
-    <div>
-        <label for="">Nomre</label>
-        <input type="number" name="" class="input" id="" placeholder="(000) 000-00-00">
-    </div>
-    <div class="button"><span>Davam Et</span></div>
-    <p>Elan yerləşdirərək, siz Turbo.az-ın İstifadəçi razılaşması və Qaydaları ilə razı olduğunuzu təsdiq edirsiniz</p>
-
+      <div class="button"><span>Davam Et</span></div>
+      <p>
+        Elan yerləşdirərək, siz Turbo.az-ın İstifadəçi razılaşması və Qaydaları
+        ilə razı olduğunuzu təsdiq edirsiniz
+      </p>
     </form>
     <!--Footer-->
     <footer>
