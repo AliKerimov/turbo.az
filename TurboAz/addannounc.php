@@ -19,8 +19,8 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="announc.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/announc.css" />
   </head>
   <body>
     <!--Header-->
@@ -84,17 +84,10 @@
           class="d-flex justify-content-center gap-4 links"
           style="margin-left: 15px"
         >
-          <a href="">Bütün elanlar</a>
+          <a href="index.php">Bütün elanlar</a>
           <a href="">Avtosalonlar</a>
           <a href="">Ehtiyat hissələri və aksesuarlar</a>
         </div>
-        <div
-          class="addannounc-btn d-flex justify-content-center align-items-center px-5"
-        >
-          <a href="">
-            <i class="fa-solid fa-circle-plus"></i>
-            <span> Elan yerləşdir</span>
-          </a>
         </div>
       </div>
     </div>
@@ -123,6 +116,7 @@
         istifadə edin.
       </li>
     </ul>
+    <!--Form-->
     <form action="" class="cont">
       <div class="form-elements">
         <label for="">Marka</label>

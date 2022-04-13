@@ -19,7 +19,7 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <!--Header-->
@@ -90,7 +90,7 @@
         <div
           class="addannounc-btn d-flex justify-content-center align-items-center px-5"
         >
-          <a href="">
+          <a href="login.php">
             <i class="fa-solid fa-circle-plus"></i>
             <span> Elan yerləşdir</span>
           </a>

@@ -19,12 +19,12 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="login.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/announc.css" />
   </head>
   <body>
     <!--Header-->
-    <header>
+    <header style="margin-top: 0%">
       <div class="row cont">
         <div
           class="col-3 red-bck mt-2 mr-5 d-flex justify-content-center align-items-center flex-column"
@@ -84,60 +84,88 @@
           class="d-flex justify-content-center gap-4 links"
           style="margin-left: 15px"
         >
-          <a href="">Bütün elanlar</a>
+          <a href="index.php">Bütün elanlar</a>
           <a href="">Avtosalonlar</a>
           <a href="">Ehtiyat hissələri və aksesuarlar</a>
         </div>
-        <div
-          class="addannounc-btn d-flex justify-content-center align-items-center px-5"
-        >
-          <a href="">
-            <i class="fa-solid fa-circle-plus"></i>
-            <span> Elan yerləşdir</span>
-          </a>
         </div>
       </div>
     </div>
-    <!--Login-->
-    <form action="" class="cont">
-      <div>
-        <label for="fullname">Adiniz</label>
-        <input type="text" name="fullname" id="fullname" class="input" />
+    <!--Main Content-->
+    <h1
+      class="cont mt-2 mb-2 py-4"
+      style="
+        font-size: 18px;
+        font-weight: 700;
+        border-bottom: 1px solid #efefef;
+      "
+    >
+      ELAN
+    </h1>
+    <!--Form-->
+    <div style="margin-left: 15%;">
+        <div class="car-img">
+            <img src="images/lexus.jpg" alt="">
+        </div>
+        <div class="form-elements">
+            <label for="">Ad</label>
+            <!-- <input type="text" style="border: 1px solid gray; border-radius: 4px;"> -->
+            <p>Lorem ipsum dolor sit amet.</p>
+            <label for=""> E-mail </label>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+      <div class="form-elements">
+        <label for="">Marka</label>
+        <!-- <input type="text" style="border: 1px solid gray; border-radius: 4px;"> -->
+        <p>Lorem ipsum dolor sit amet.</p>
+        <label for="">Yanacaq növü </label>
+        <p>Lorem ipsum dolor sit amet.</p>
       </div>
-      <div>
-        <label for="city">Seher</label>
-        <input type="text" name="city" id="city" class="input" />
+      <div class="form-elements">
+        <label for="">Model</label>
+        <!-- <input type="text" style="border: 1px solid gray; border-radius: 4px;"> -->
+        <p>Lorem ipsum dolor sit amet.</p>
+        <label for="">Ötürücü </label>
+        <p>Lorem ipsum dolor sit amet.</p>
       </div>
-      <div>
-        <label for="email">E-mail</label>
-        <input type="email" name="email" id="email" class="input" />
+      <div class="form-elements">
+        <label for="">Ban Novu</label>
+        <!-- <input type="text" style="border: 1px solid gray; border-radius: 4px;"> -->
+        <p>Lorem ipsum dolor sit amet.</p>
+        <label for="">Sürətlər qutusu</label>
+        <p>Lorem ipsum dolor sit amet.</p>
       </div>
-      <div>
-        <label for="number">Nomre</label>
-        <input
-          type="text"
-          name="number"
-          class="input"
-          id="number"
-          placeholder="(000) 000-00-00"
-        />
+      <div class="form-elements">
+        <label for="">Yürüş</label>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <!-- <input type="text" style="border: 1px solid gray; border-radius: 4px;"> -->
+        <label for="">Buraxılış ili </label>
+        <p>Lorem ipsum dolor sit amet.</p>
       </div>
-      <div>
-        <label for="">Sifre</label>
-        <input type="password">
+      <div class="form-elements">
+        <label for="">Rəng </label>
+        <!-- <input type="text" style="border: 1px solid gray; border-radius: 4px;"> -->
+        <p>Lorem ipsum dolor sit amet.</p>
+        <label for="">Mühərrikin həcmi, sm3</label>
+        <p>Lorem ipsum dolor sit amet.</p>
       </div>
-      <!-- <?php if(isset($_GET['error'])){ 
-     ?> -->
-      <!-- <div class="alert alert-danger" role="alert">
-        <?php echo $_GET['error']; ?> 
-      </div> -->
-      <!-- <?php } ?> -->
-      <button type="submit" class="button">Davam Et</button>
-      <p>
-        Elan yerləşdirərək, siz Turbo.az-ın İstifadəçi razılaşması və Qaydaları
-        ilə razı olduğunuzu təsdiq edirsiniz
-      </p>
-    </form>
+      <div class="form-elements">
+        <label for="">Qiymət</label>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <!-- <input type="text" style="border: 1px solid gray; border-radius: 4px;"> -->
+        <label for="">Mühərrikin gücü, a.g </label>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+      </div>
+    
+
+
+
+
+
+
+
+    <!--Footer-->
     <footer>
       <div
         class="cont d-flex justify-content-between align-items-center mb-5 mt-5"
