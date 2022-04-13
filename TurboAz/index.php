@@ -60,13 +60,13 @@
                 </a>
               </div>
             </div>
-            <div class="col-4 sites gx-0">
-              <h1 class="header-sites">BINA.AZ</h1>
+            <div class="col-4 sites gx-0"  style="cursor:pointer;">
+              <h1 class="header-sites" style="cursor:pointer;">BINA.AZ</h1>
             </div>
-            <div class="col-4 sites gx-0">
+            <div class="col-4 sites gx-0" style="cursor:pointer;">
               <h1 class="header-sites">TAP.AZ</h1>
             </div>
-            <div class="col-4 sites gx-0">
+            <div class="col-4 sites gx-0" style="cursor:pointer;">
               <h1 class="header-sites">BOSS.AZ</h1>
             </div>
           </div>

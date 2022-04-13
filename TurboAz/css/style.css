@@ -110,6 +110,9 @@ header{
     margin-bottom: 0px;
     margin-left: 10px;
 }
+.card{
+    cursor: pointer;
+}
 /*Footer*/
 footer{
     margin-top: 10px;
